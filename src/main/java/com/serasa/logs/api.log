@@ -1,0 +1,44 @@
+[INFO ] 2021-06-08 16:13:52.056 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:52.462 [main] StepDefinitions - Route : /security/iam/v1/client-identities/login
+[INFO ] 2021-06-08 16:13:53.819 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:53.820 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:13:53.820 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/14969127000128
+[INFO ] 2021-06-08 16:13:53.820 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:13:54.042 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:54.043 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:13:54.044 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/34764920000106
+[INFO ] 2021-06-08 16:13:54.044 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:13:54.239 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:54.248 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:13:54.249 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/00000208000100
+[INFO ] 2021-06-08 16:13:54.252 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:13:54.429 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:54.430 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:13:54.430 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/02255984000187
+[INFO ] 2021-06-08 16:13:54.431 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:13:54.602 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:13:54.603 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:13:54.603 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/00000333000110
+[INFO ] 2021-06-08 16:13:54.604 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:19:06.365 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:06.715 [main] StepDefinitions - Route : /security/iam/v1/client-identities/login
+[INFO ] 2021-06-08 16:19:08.587 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:08.588 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:19:08.588 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/14969127000128
+[INFO ] 2021-06-08 16:19:08.588 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:19:08.900 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:08.901 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:19:08.902 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/34764920000106
+[INFO ] 2021-06-08 16:19:08.902 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:19:09.192 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:09.193 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:19:09.193 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/00000208000100
+[INFO ] 2021-06-08 16:19:09.194 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:19:09.481 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:09.482 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:19:09.482 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/02255984000187
+[INFO ] 2021-06-08 16:19:09.483 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]
+[INFO ] 2021-06-08 16:19:10.779 [main] StepDefinitions - Ambiente selecionado API: HOMOLOGA플O APIGEE : uat-api.serasaexperian.com.br
+[INFO ] 2021-06-08 16:19:10.780 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/
+[INFO ] 2021-06-08 16:19:10.780 [main] StepDefinitions - Route : /credit-services/business-restrictions/v1/countries/BRA/documents/00000333000110
+[INFO ] 2021-06-08 16:19:10.780 [main] StepDefinitions - Bearer token used in header request : [Bearer null, application/json]

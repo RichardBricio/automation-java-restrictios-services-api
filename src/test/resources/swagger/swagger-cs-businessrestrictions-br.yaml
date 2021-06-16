@@ -1,0 +1,98 @@
+swagger: '2.0'
+info:
+  version: '1.0.0'
+  title: CS-BusinessRestrictions-BR
+  description: Exposes consumer data restrictions for third party consults.
+  contact:
+    name: Experian API Team - Credit Services
+    email: suporte-api-credit-services@br.experian.com
+host: sandbox-api.serasaexperian.com.br
+basePath: /credit-services/bussiness-restrictions/v1
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /countries/{countryId}/documents/{documentId}:
+    get:
+      tags:
+        - restrictions
+      summary: Returns the list of restrictions a consumer document has.
+      description: To access this method the client (application) must have ["CLI-AUTH-BASIC" authentication and "CLI-1STPARTY"]
+      operationId: getRestrictions
+      produces:
+        - application/json
+      security:
+        - OauthSecurityClient:
+            - read
+      parameters:
+        - name: documentId
+          in: path
+          description: Consumer document ID to fetch
+          required: true
+          type: string
+        - in: path
+          name: countryId
+          description: Country code ISO-Alpha3 from origin of document
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Success Response
+          schema:
+            $ref: '#/definitions/RestrictionReport'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Error'
+        '401':
+          description: Authorization Failed
+          schema:
+            $ref: '#/definitions/Error'
+        '412':
+          description: Missing Required Field
+          schema:
+            $ref: '#/definitions/Error'
+        '429':
+          description: Too many requests
+          schema:
+            $ref: '#/definitions/Error'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected Error
+          schema:
+            $ref: '#/definitions/Error'
+securityDefinitions:
+  OauthSecurityClient:
+    type: oauth2
+    flow: application
+    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/user-identities/login'
+    scopes:
+      read: client read scope
+definitions:
+  RestrictionReport:
+    type: object
+    required:
+      - results
+    properties:
+      restrictions:
+        properties:
+          all:
+            type: boolean
+            description: Consumer is restrict, so his data should not be shown.
+  Error:
+    type: array
+    items:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: string
+        message:
+          type: string

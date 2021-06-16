@@ -1,0 +1,158 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: CS-Concentre-BR
+  description: Orquestrador/BFF do Concentre utilizado para obter o relatório histórico positivo financeiro de empresas.
+  contact:
+    name: Experian API Team
+    email: SquadFamiliaRelato@br.experian.com
+host: sandbox-api.serasaexperian.com.br
+basePath: /credit-services/concentre/v1
+schemes:
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  '/positivo/historico-financeiro/{documento}/{logon}':
+    get:
+      tags:
+        - concentre
+      summary: Histórico de pontualidade de pagamentos da empresa.
+      description: Retorna o relatório sumarizado do histórico de pontualidade de pagamentos da empresa solicitada.
+      operationId: consultarHistoricoConcentreLogon
+      produces:
+        - application/json
+      security:
+        - OauthSecurityClient:
+            - read
+      parameters:
+        - in: path
+          name: documento
+          description: CNPJ da empresa consultada
+          required: true
+          type: string
+        - in: path
+          name: logon
+          description: Logon do usuário que realizou a consulta via string
+          required: true
+          type: string
+      responses:
+        '200':
+          description: Relatório com o histórico de pagamento da empresa.
+          schema:
+            $ref: '#/definitions/HistoricoConcentre'
+        '400':
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/Erro'
+        '401':
+          description: Usuário e/ou senha inválidos
+          schema:
+            $ref: '#/definitions/Erro'
+        '403':
+          description: Acesso não autorizado
+          schema:
+            $ref: '#/definitions/Erro'
+        '404':
+          description: Relatório(s)  não encontrado(s)
+          schema:
+            $ref: '#/definitions/Erro'
+        '412':
+          description: Precondition Failed
+          schema:
+            $ref: '#/definitions/Erro'
+        '500':
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/Erro'
+        default:
+          description: unexpected error
+          schema:
+            $ref: '#/definitions/Erro'
+securityDefinitions:
+  OauthSecurityUser:
+    type: oauth2
+    flow: password
+    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/user-identities/login'
+    scopes:
+      read: User read scope
+  OauthSecurityClient:
+    type: oauth2
+    flow: application
+    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/client-identities/login'
+    scopes:
+      read: Client read scope
+definitions:
+  HistoricoConcentre:
+    type: object
+    properties:
+      compromissosAtivos:
+        type: object
+        properties:
+          linhaCredito:
+            type: array
+            items:
+              $ref: '#/definitions/ModalidadeCredito'
+          totalCompromissos:
+            $ref: '#/definitions/Compromisso'
+          quantidadeCompromissos:
+            $ref: '#/definitions/Compromisso'
+          parcelas:
+            $ref: '#/definitions/Parcelas'
+      pontualidadePagamento:
+          type: object
+          properties:
+            rotativo:
+              $ref: '#/definitions/Compromisso'
+            pontual:
+              $ref: '#/definitions/Compromisso'
+            ate30dias:
+              $ref: '#/definitions/Compromisso'
+            acima30dias:
+              $ref: '#/definitions/Compromisso'
+            total:
+              $ref: '#/definitions/Compromisso'
+  ModalidadeCredito:
+    type: object
+    properties:
+      nome:
+        type: string
+      percentual:
+        type: number
+        format: float
+  Compromisso:
+    type: object
+    properties:
+      range:
+        type: string
+      valor:
+        type: string
+      percentual:
+        type: string
+  Parcelas:
+    type: object
+    properties:
+      pagas:
+        type: number
+        format: float
+      vencer:
+        type: number
+        format: float
+      aberto:
+        type: number
+        format: float
+  Erro:
+    type: array
+    items:
+      required:
+        - codigo
+        - mensagem
+      properties:
+        codigo:
+          type: string
+          description: Código do erro.
+        mensagem:
+          type: string
+          description: Mensagem do erro.

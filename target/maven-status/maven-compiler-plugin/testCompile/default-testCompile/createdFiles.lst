@@ -1,0 +1,5 @@
+com\serasa\steps\StepDefinitions.class
+com\serasa\utils\ReusableMethods.class
+com\serasa\utils\Log.class
+com\serasa\runner\TestRunner.class
+com\serasa\steps\Hooks.class
