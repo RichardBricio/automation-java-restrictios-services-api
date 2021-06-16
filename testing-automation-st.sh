@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nameProject='experian-srv-serasajud-test-api'
+nameProject='automation-java-restrictios-services-api'
 version=$(xmllint --xpath '/*[local-name()="project"]/*[local-name()="version"]/text()' pom.xml |sed -e 's/-SNAPSHOT//g')
 
 echo ">>>>> Isso aí!!! Vamos clonar e buildar o projeto de testes Brow \o/"

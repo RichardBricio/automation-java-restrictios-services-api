@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="experian-srv-serasajud-test-api" />
+        <module name="automation-java-restrictios-services-api" />
         <module name="experian-business-restrictions-domain-services-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="automation-java-restrictios-services-api" target="1.8" />
       <module name="experian-business-restrictions-domain-services-test" target="1.8" />
-      <module name="experian-srv-serasajud-test-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

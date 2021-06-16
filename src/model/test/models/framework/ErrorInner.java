@@ -11,7 +11,7 @@
  */
 
 
-package com.serasa.models.framework;
+package models.framework;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;

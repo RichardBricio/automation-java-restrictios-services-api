@@ -6,7 +6,7 @@ info:
   contact:
     name: Experian API Team - Credit Services
     email: suporte-api-credit-services@br.experian.com
-host: sandbox-api.serasaexperian.com.br
+host: sandbox-api.site.com.br
 basePath: /credit-services/bussiness-restrictions/v1
 schemes:
   - https
@@ -71,7 +71,7 @@ securityDefinitions:
   OauthSecurityClient:
     type: oauth2
     flow: application
-    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/user-identities/login'
+    tokenUrl: 'https://sandbox-api.site.com.br/security/iam/v1/user-identities/login'
     scopes:
       read: client read scope
 definitions:

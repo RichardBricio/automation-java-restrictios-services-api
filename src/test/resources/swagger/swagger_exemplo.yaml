@@ -6,7 +6,7 @@ info:
   contact:
     name: Experian API Team
     email: SquadFamiliaRelato@br.experian.com
-host: sandbox-api.serasaexperian.com.br
+host: sandbox-api.site.com.br
 basePath: /credit-services/concentre/v1
 schemes:
   - https
@@ -75,13 +75,13 @@ securityDefinitions:
   OauthSecurityUser:
     type: oauth2
     flow: password
-    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/user-identities/login'
+    tokenUrl: 'https://sandbox-api.site.com.br/security/iam/v1/user-identities/login'
     scopes:
       read: User read scope
   OauthSecurityClient:
     type: oauth2
     flow: application
-    tokenUrl: 'https://sandbox-api.serasaexperian.com.br/security/iam/v1/client-identities/login'
+    tokenUrl: 'https://sandbox-api.site.com.br/security/iam/v1/client-identities/login'
     scopes:
       read: Client read scope
 definitions:

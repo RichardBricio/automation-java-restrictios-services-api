@@ -34,7 +34,7 @@ public class Hooks {
     public void runBeforeWithOrder(Scenario scenario) throws Throwable {
         Hooks.scenario = scenario;
         keepScenarion(scenario);
-        //proxy("spobrproxy.serasa.intranet",3128);
+        //proxy("spobrproxy.intranet",3128);
         //authentication = basic( "" , "" );
         //RestAssured.ntlm("","");
         //useRelaxedHTTPSValidation("SSL");  // SSL  no keystore  // TLSv1.2  with certificate

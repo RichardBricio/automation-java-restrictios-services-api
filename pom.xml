@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.com.experian</groupId>
-	<artifactId>experian-srv-serasajud-test-api</artifactId>
+	<artifactId>automation-java-restrictios-services-api</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>experian-srv-serasajud-test-api</name>
+	<name>automation-java-restrictios-services-api</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -152,7 +152,7 @@
 							<generateSupportingFiles>false</generateSupportingFiles>
 							<generateApis>false</generateApis>
 							<output>${basedir}/src/model/</output>
-							<modelPackage>com.serasa.models.framework</modelPackage>
+							<modelPackage>models.framework</modelPackage>
 							<generateApis>false</generateApis>
 							<configOptions>
 								<library>jersey1</library>
@@ -176,7 +176,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>experian-srv-serasajud-test-api</projectName>
+							<projectName>automation-java-restrictios-services-api</projectName>
 							<buildNumber>${project.version}</buildNumber>
 							<skip>false</skip>
 							<outputDirectory>${project.build.directory}</outputDirectory>

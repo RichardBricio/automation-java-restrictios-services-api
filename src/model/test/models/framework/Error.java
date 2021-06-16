@@ -11,10 +11,10 @@
  */
 
 
-package com.serasa.models.framework;
+package models.framework;
 
 import java.util.Objects;
-import com.serasa.models.framework.ErrorInner;
+import models.framework.ErrorInner;
 import java.util.ArrayList;
 import java.util.List;
 import javax.validation.constraints.*;
