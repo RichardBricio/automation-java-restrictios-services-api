@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2acdac1-39f9-42e7-afcd-778faf319954" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/BloqueioGeral.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/BloqueioGeral.feature" afterDir="false" />
-    </list>
+    <list default="true" id="c2acdac1-39f9-42e7-afcd-778faf319954" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,9 +19,12 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Apache/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1tfqA713ZQNJlk3GhCANrRVRpvH" />
   <component name="ProjectViewState">
@@ -29,7 +33,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,31 +47,5 @@
       <updated>1623170345728</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1623247010371">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623247010371" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1623247010371">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623247010371" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1623247010371">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623247010371" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1623247010371">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623247010371" />
-    <state x="2170" y="85" key="Maven.ArtifactSearchDialog" timestamp="1623173716402">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2170" y="85" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623173716402" />
-    <state x="2347" y="163" width="743" height="534" key="find.popup" timestamp="1623179877424">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2347" y="163" width="743" height="534" key="find.popup/0.0.1280.680/1920.0.1440.860@1920.0.1440.860" timestamp="1623179877424" />
   </component>
 </project>
