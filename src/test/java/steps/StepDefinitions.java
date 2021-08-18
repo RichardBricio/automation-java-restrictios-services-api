@@ -19,7 +19,7 @@ import org.apache.logging.log4j.Logger;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import models.framework.RestrictionReport;
+//import models.framework.RestrictionReport;
 import pojo.BearerToken;
 import properties.GetProperties;
 import utils.ReusableMethods;
@@ -46,7 +46,7 @@ public class StepDefinitions {
 	private static GetProperties props = new GetProperties();
 	final static Logger logger = LogManager.getLogger(StepDefinitions.class);
 
-	RestrictionReport response = new RestrictionReport();
+//	RestrictionReport response = new RestrictionReport();
 	ObjectMapper mapper = new ObjectMapper();
 
 	// ------------------------------------GHERKIN
@@ -271,9 +271,9 @@ public class StepDefinitions {
 	
 	@And("Eu valido o retorno da API {}")
 	public void eu_valido_o_retorno_da_api(boolean status) throws JsonMappingException, JsonProcessingException {
-		response = mapper.readValue(Hooks.responseJson, RestrictionReport.class);
-		System.out.println("response.getRestrictions().isAll(): " + response.getRestrictions().isAll());
-		ReusableMethods.tryValidating(status,response.getRestrictions().isAll());
+//		response = mapper.readValue(Hooks.responseJson, RestrictionReport.class);
+//		System.out.println("response.getRestrictions().isAll(): " + response.getRestrictions().isAll());
+//		ReusableMethods.tryValidating(status,response.getRestrictions().isAll());
 	}
 	
 	// ------------------------------------COMMON

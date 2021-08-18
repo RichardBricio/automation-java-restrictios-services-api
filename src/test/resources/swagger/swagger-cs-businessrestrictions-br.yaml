@@ -4,8 +4,8 @@ info:
   title: CS-BusinessRestrictions-BR
   description: Exposes consumer data restrictions for third party consults.
   contact:
-    name: Experian API Team - Credit Services
-    email: suporte-api-credit-services@br.experian.com
+    name: API Team - Credit Services
+    email: suporte-api-credit-services@br.company.com
 host: sandbox-api.site.com.br
 basePath: /credit-services/bussiness-restrictions/v1
 schemes:

@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2acdac1-39f9-42e7-afcd-778faf319954" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/experian-srv-serasajud-test-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/automation-java-restrictios-services-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/properties/GetProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/GetProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/properties/env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/env.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/test/models/framework/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/test/models/framework/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/test/models/framework/ErrorInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/test/models/framework/ErrorInner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/test/models/framework/RestrictionReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/test/models/framework/RestrictionReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/test/models/framework/RestrictionReportRestrictions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/test/models/framework/RestrictionReportRestrictions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/swagger/swagger-cs-businessrestrictions-br.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/swagger/swagger-cs-businessrestrictions-br.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/swagger/swagger_exemplo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/swagger/swagger_exemplo.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing-automation-st.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testing-automation-st.sh" afterDir="false" />

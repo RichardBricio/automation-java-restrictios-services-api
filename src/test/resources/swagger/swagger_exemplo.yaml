@@ -4,8 +4,8 @@ info:
   title: CS-Concentre-BR
   description: Orquestrador/BFF do Concentre utilizado para obter o relatório histórico positivo financeiro de empresas.
   contact:
-    name: Experian API Team
-    email: SquadFamiliaRelato@br.experian.com
+    name: API Team
+    email: SquadFamiliaRelato@br.company.com
 host: sandbox-api.site.com.br
 basePath: /credit-services/concentre/v1
 schemes:

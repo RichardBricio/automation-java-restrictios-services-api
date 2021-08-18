@@ -5,7 +5,7 @@ version=$(xmllint --xpath '/*[local-name()="project"]/*[local-name()="version"]/
 
 echo ">>>>> Isso aí!!! Vamos clonar e buildar o projeto de testes Brow \o/"
 echo ">>>>> Jutsu Clone das Sombras o+ "
-git clone ssh://git@code.experian.local/tbq/${nameProject}.git
+git clone ssh://git@code.company.local/tbq/${nameProject}.git
 cd ${nameProject}
 git checkout develop
 git pull origin develop
